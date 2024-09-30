@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blue;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+.container {
+    width: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    float: none;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    border: 1px solid #000;
+    float: left;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}
